@@ -39,6 +39,6 @@ class Word extends Record{
     public static function getRandomWord(){
         $max = self::getWordCount();
         $selection = mt_rand(0,$max);
-        return new self($ids[$selection]);
+        return new self($selection);
     }
 }
