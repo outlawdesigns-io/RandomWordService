@@ -2,4 +2,5 @@
 
 require_once __DIR__ . '/word.php';
 
-echo Word::getRandomWord();
+$word = Word::getRandomWord();
+echo $word->word;
