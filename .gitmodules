@@ -1,3 +1,6 @@
 [submodule "Libs/Record"]
 	path = Libs/Record
 	url = https://github.com/outlawdesigns-io/Record
+[submodule "Libs/ContainerSetup"]
+	path = Libs/ContainerSetup
+	url = https://gist.github.com/outlawstar4761/3243b7bcdcd2aa051e85338c403ac0cd
