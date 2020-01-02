@@ -11,7 +11,7 @@ class Word extends Record{
     public $word;
 
     public function __construct($UID = null){
-        parent::__construct(self::DB,self::TABLE,self::PRIMARYKEY,$Id);
+        parent::__construct(self::DB,self::TABLE,self::PRIMARYKEY,$UID);
     }
     public static function getAllIds(){
         $data = array();
